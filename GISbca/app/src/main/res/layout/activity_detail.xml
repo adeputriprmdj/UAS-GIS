@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#194d93"
+    tools:context=".DetailActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/image_atm"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D2FDFDFD"
+        android:textStyle="bold"
+        android:text="Nama" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D2FDFDFD"
+        android:id="@+id/tv_nama"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D2FDFDFD"
+        android:textStyle="bold"
+        android:text="Alamat"/>
+
+    <TextView
+        android:textColor="#D2FDFDFD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_alamat"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#D2FDFDFD"
+        android:text="Call Center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#D2FDFDFD"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_call_center"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#0665B1"
+        android:layout_width="200dp"
+        android:textStyle="bold"
+        android:textColor="#D2FDFDFD"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/btncall_center"
+        android:text="CALL"/>
+
+</LinearLayout>
